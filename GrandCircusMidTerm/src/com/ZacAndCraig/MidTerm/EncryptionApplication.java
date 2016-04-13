@@ -1,7 +1,7 @@
 package com.ZacAndCraig.MidTerm;
 	
 //     Write encrypted message to file
-//     Read decrypted message from file
+ //     Read decrypted message from file
 
 import java.util.Scanner;
 

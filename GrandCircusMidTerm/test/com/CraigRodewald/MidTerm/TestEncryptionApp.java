@@ -95,7 +95,7 @@ public class TestEncryptionApp {
 		char[] result = Decryption.decryptMessage(input);
 		
 		assertArrayEquals(expected, result);
-	}
+	} 
 	@Test
 	public void testDecryptionRebuildMessageIntoString() throws Exception {
 		char[] input = {'t', 'e', 's', 't'};

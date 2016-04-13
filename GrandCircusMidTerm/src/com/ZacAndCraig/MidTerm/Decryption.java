@@ -6,7 +6,7 @@ public class Decryption {
 
 		if (message == null || message.length() == 0)
 			throw new IllegalArgumentException();
-
+ 
 		char[] letters = splitMessage(message);
 
 		char[] decryptedLetters = decryptMessage(letters);
