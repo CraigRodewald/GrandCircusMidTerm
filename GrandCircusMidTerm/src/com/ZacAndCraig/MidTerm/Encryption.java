@@ -7,6 +7,7 @@ public class Encryption {
 		// and returns a String to the main application class
 	public static String doEncryption(String message){
 		
+		
 		// Guard clause
 		if(message == null || message.length() == 0)
 			throw new IllegalArgumentException();
